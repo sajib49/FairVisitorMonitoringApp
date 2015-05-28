@@ -113,6 +113,7 @@
             // 
             // saveVisitorButton
             // 
+            this.saveVisitorButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.saveVisitorButton.Location = new System.Drawing.Point(547, 489);
             this.saveVisitorButton.Name = "saveVisitorButton";
             this.saveVisitorButton.Size = new System.Drawing.Size(103, 38);
@@ -123,6 +124,7 @@
             // 
             // ChekAndUncheckButton
             // 
+            this.ChekAndUncheckButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ChekAndUncheckButton.Location = new System.Drawing.Point(287, 500);
             this.ChekAndUncheckButton.Name = "ChekAndUncheckButton";
             this.ChekAndUncheckButton.Size = new System.Drawing.Size(125, 27);

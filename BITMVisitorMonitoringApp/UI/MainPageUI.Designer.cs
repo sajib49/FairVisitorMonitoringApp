@@ -44,6 +44,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.visitorToolStripMenuItem,
             this.setupToolStripMenuItem,
@@ -51,7 +52,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(828, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(828, 29);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -61,20 +62,20 @@
             this.exitToolStripMenuItem,
             this.exitToolStripMenuItem1});
             this.visitorToolStripMenuItem.Name = "visitorToolStripMenuItem";
-            this.visitorToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.visitorToolStripMenuItem.Size = new System.Drawing.Size(67, 25);
             this.visitorToolStripMenuItem.Text = "Visitor";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(169, 26);
             this.exitToolStripMenuItem.Text = " Visitor Entry";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem1
             // 
             this.exitToolStripMenuItem1.Name = "exitToolStripMenuItem1";
-            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(169, 26);
             this.exitToolStripMenuItem1.Text = "Exit";
             this.exitToolStripMenuItem1.Click += new System.EventHandler(this.exitToolStripMenuItem1_Click);
             // 
@@ -83,13 +84,13 @@
             this.setupToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.zoneTypeToolStripMenuItem});
             this.setupToolStripMenuItem.Name = "setupToolStripMenuItem";
-            this.setupToolStripMenuItem.Size = new System.Drawing.Size(49, 20);
+            this.setupToolStripMenuItem.Size = new System.Drawing.Size(62, 25);
             this.setupToolStripMenuItem.Text = "Setup";
             // 
             // zoneTypeToolStripMenuItem
             // 
             this.zoneTypeToolStripMenuItem.Name = "zoneTypeToolStripMenuItem";
-            this.zoneTypeToolStripMenuItem.Size = new System.Drawing.Size(130, 22);
+            this.zoneTypeToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
             this.zoneTypeToolStripMenuItem.Text = "Zone Type";
             this.zoneTypeToolStripMenuItem.Click += new System.EventHandler(this.zoneTypeToolStripMenuItem_Click);
             // 
@@ -99,20 +100,20 @@
             this.zoneSpecificToolStripMenuItem,
             this.zoneWiseVisitorNumberToolStripMenuItem});
             this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
-            this.reportToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.reportToolStripMenuItem.Size = new System.Drawing.Size(69, 25);
             this.reportToolStripMenuItem.Text = "Report";
             // 
             // zoneSpecificToolStripMenuItem
             // 
             this.zoneSpecificToolStripMenuItem.Name = "zoneSpecificToolStripMenuItem";
-            this.zoneSpecificToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
+            this.zoneSpecificToolStripMenuItem.Size = new System.Drawing.Size(265, 26);
             this.zoneSpecificToolStripMenuItem.Text = "Zone Specific Visitor Detail";
             this.zoneSpecificToolStripMenuItem.Click += new System.EventHandler(this.zoneSpecificToolStripMenuItem_Click);
             // 
             // zoneWiseVisitorNumberToolStripMenuItem
             // 
             this.zoneWiseVisitorNumberToolStripMenuItem.Name = "zoneWiseVisitorNumberToolStripMenuItem";
-            this.zoneWiseVisitorNumberToolStripMenuItem.Size = new System.Drawing.Size(214, 22);
+            this.zoneWiseVisitorNumberToolStripMenuItem.Size = new System.Drawing.Size(265, 26);
             this.zoneWiseVisitorNumberToolStripMenuItem.Text = "Zone Wise Visitor Number";
             this.zoneWiseVisitorNumberToolStripMenuItem.Click += new System.EventHandler(this.zoneWiseVisitorNumberToolStripMenuItem_Click);
             // 
@@ -148,7 +149,7 @@
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Main Area";
             this.menuStrip1.ResumeLayout(false);
