@@ -43,6 +43,7 @@
             this.groupBox1.Controls.Add(this.saveZoneNameButton);
             this.groupBox1.Controls.Add(this.zoneTypeNameTextBox);
             this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(38, 25);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(495, 168);
@@ -52,7 +53,7 @@
             // 
             // saveZoneNameButton
             // 
-            this.saveZoneNameButton.Location = new System.Drawing.Point(320, 110);
+            this.saveZoneNameButton.Location = new System.Drawing.Point(353, 114);
             this.saveZoneNameButton.Name = "saveZoneNameButton";
             this.saveZoneNameButton.Size = new System.Drawing.Size(111, 36);
             this.saveZoneNameButton.TabIndex = 2;
@@ -62,30 +63,35 @@
             // 
             // zoneTypeNameTextBox
             // 
-            this.zoneTypeNameTextBox.Location = new System.Drawing.Point(167, 72);
+            this.zoneTypeNameTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.zoneTypeNameTextBox.Location = new System.Drawing.Point(181, 54);
+            this.zoneTypeNameTextBox.Multiline = true;
             this.zoneTypeNameTextBox.Name = "zoneTypeNameTextBox";
-            this.zoneTypeNameTextBox.Size = new System.Drawing.Size(228, 20);
+            this.zoneTypeNameTextBox.Size = new System.Drawing.Size(270, 35);
             this.zoneTypeNameTextBox.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(48, 72);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(38, 63);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(93, 13);
+            this.label1.Size = new System.Drawing.Size(122, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Zone Type Name:";
             // 
             // zoneTypeListView
             // 
+            this.zoneTypeListView.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.zoneTypeListView.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2});
+            this.zoneTypeListView.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.zoneTypeListView.FullRowSelect = true;
             this.zoneTypeListView.GridLines = true;
-            this.zoneTypeListView.Location = new System.Drawing.Point(128, 234);
+            this.zoneTypeListView.Location = new System.Drawing.Point(38, 210);
             this.zoneTypeListView.Name = "zoneTypeListView";
-            this.zoneTypeListView.Size = new System.Drawing.Size(341, 112);
+            this.zoneTypeListView.Size = new System.Drawing.Size(495, 170);
             this.zoneTypeListView.TabIndex = 1;
             this.zoneTypeListView.UseCompatibleStateImageBehavior = false;
             this.zoneTypeListView.View = System.Windows.Forms.View.Details;
@@ -93,19 +99,19 @@
             // columnHeader1
             // 
             this.columnHeader1.Text = "Serial";
-            this.columnHeader1.Width = 49;
+            this.columnHeader1.Width = 41;
             // 
             // columnHeader2
             // 
             this.columnHeader2.Text = "Zone Type";
             this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader2.Width = 276;
+            this.columnHeader2.Width = 448;
             // 
             // ZoneTypeUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(587, 395);
+            this.ClientSize = new System.Drawing.Size(587, 417);
             this.Controls.Add(this.zoneTypeListView);
             this.Controls.Add(this.groupBox1);
             this.MaximizeBox = false;

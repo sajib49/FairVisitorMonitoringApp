@@ -59,6 +59,7 @@
             // 
             // contactNumberEntryTextBox
             // 
+            this.contactNumberEntryTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.contactNumberEntryTextBox.Location = new System.Drawing.Point(167, 128);
             this.contactNumberEntryTextBox.Multiline = true;
             this.contactNumberEntryTextBox.Name = "contactNumberEntryTextBox";
@@ -67,6 +68,7 @@
             // 
             // emailentryTextBox
             // 
+            this.emailentryTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.emailentryTextBox.Location = new System.Drawing.Point(167, 81);
             this.emailentryTextBox.Multiline = true;
             this.emailentryTextBox.Name = "emailentryTextBox";
@@ -75,6 +77,7 @@
             // 
             // nameEntryTextBox
             // 
+            this.nameEntryTextBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.nameEntryTextBox.Location = new System.Drawing.Point(167, 31);
             this.nameEntryTextBox.Multiline = true;
             this.nameEntryTextBox.Name = "nameEntryTextBox";

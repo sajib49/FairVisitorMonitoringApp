@@ -26,10 +26,8 @@ namespace VisitorMonitoringApp.UI
 
         private void ZoneWiseVisitorNumberUI_Load(object sender, EventArgs e)
         {
-            CountVisitor aCountVisitor = new CountVisitor();
-            List<CountVisitor> aVisitorCount = new List<CountVisitor>();
-            List<Zone> zonesList = aZoneManager.GetAllZone();
 
+            List<Zone> zonesList = aZoneManager.GetAllZone();
             List<Zone> finalZoneList =new List<Zone>();
             
             foreach (Zone aZone in zonesList)
@@ -39,22 +37,18 @@ namespace VisitorMonitoringApp.UI
 
                 finalZoneList.Add(aZone);
 
-
             }
 
-            int i = 0;
+            int countTotalVisitor = 0;
             foreach (Zone aZone in finalZoneList)
             {
                 ListViewItem item = new ListViewItem(aZone.zoneName);
                 item.SubItems.Add(aZone.numberOfVisitor.ToString());
-                i = i + aZone.numberOfVisitor;
+                countTotalVisitor = countTotalVisitor + aZone.numberOfVisitor;
                 showAllVisitorNumberListBox.Items.Add(item);
 
             }
-            totalVisitorTextBox.Text = i.ToString();
-
-
-
+            totalVisitorTextBox.Text = countTotalVisitor.ToString();
 
         }
     }

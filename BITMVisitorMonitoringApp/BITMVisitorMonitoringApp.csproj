@@ -52,7 +52,6 @@
     <Compile Include="BLL\ZoneManager.cs" />
     <Compile Include="DAL\VisitorGateWay.cs" />
     <Compile Include="DAL\ZoneGateWay.cs" />
-    <Compile Include="MODEL\CountVisitor.cs" />
     <Compile Include="MODEL\Visitor.cs" />
     <Compile Include="MODEL\Zone.cs" />
     <Compile Include="UI\MainPageUI.cs">
