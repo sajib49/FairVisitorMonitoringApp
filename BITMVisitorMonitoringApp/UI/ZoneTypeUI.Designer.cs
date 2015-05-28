@@ -54,7 +54,7 @@
             // 
             this.saveZoneNameButton.Location = new System.Drawing.Point(320, 110);
             this.saveZoneNameButton.Name = "saveZoneNameButton";
-            this.saveZoneNameButton.Size = new System.Drawing.Size(75, 23);
+            this.saveZoneNameButton.Size = new System.Drawing.Size(111, 36);
             this.saveZoneNameButton.TabIndex = 2;
             this.saveZoneNameButton.Text = "Save";
             this.saveZoneNameButton.UseVisualStyleBackColor = true;
@@ -108,6 +108,7 @@
             this.ClientSize = new System.Drawing.Size(587, 395);
             this.Controls.Add(this.zoneTypeListView);
             this.Controls.Add(this.groupBox1);
+            this.MaximizeBox = false;
             this.Name = "ZoneTypeUI";
             this.Text = "ZoneTypeUI";
             this.Load += new System.EventHandler(this.ZoneTypeUI_Load);

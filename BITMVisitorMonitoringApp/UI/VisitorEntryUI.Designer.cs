@@ -116,9 +116,9 @@
             // 
             // saveVisitorButton
             // 
-            this.saveVisitorButton.Location = new System.Drawing.Point(537, 413);
+            this.saveVisitorButton.Location = new System.Drawing.Point(525, 413);
             this.saveVisitorButton.Name = "saveVisitorButton";
-            this.saveVisitorButton.Size = new System.Drawing.Size(91, 38);
+            this.saveVisitorButton.Size = new System.Drawing.Size(103, 38);
             this.saveVisitorButton.TabIndex = 0;
             this.saveVisitorButton.Text = "Save";
             this.saveVisitorButton.UseVisualStyleBackColor = true;

@@ -28,7 +28,7 @@ namespace BITMVisitorMonitoringApp.BLL
             }
             else
             {
-                return "Sorry visitor has not been insert! Try again. ";
+                return "Select at least one interested zone.\n ";
             }
         }
 

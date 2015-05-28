@@ -85,8 +85,7 @@ namespace VisitorMonitoringApp.UI
 
             worksheet.Cells[i, 0] = new Cell("Total Visitor:");
             worksheet.Cells[i, 1] = new Cell(i - 1);
-            //worksheet.Cells[i, 1] = new Cell(visitorCountByZoneId);
-            worksheet.Cells.ColumnWidth[0, 1] = 30000;
+           worksheet.Cells.ColumnWidth[0, 1] = 30000;
             workbook.Worksheets.Add(worksheet);
             workbook.Save(file);
 
