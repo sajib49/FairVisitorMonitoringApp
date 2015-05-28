@@ -46,5 +46,7 @@ namespace VisitorMonitoringApp
             ZoneWiseVisitorNumberUI aZoneWiseVisitorNumberUi = new ZoneWiseVisitorNumberUI();
             aZoneWiseVisitorNumberUi.Show();
         }
+
+        
     }
 }

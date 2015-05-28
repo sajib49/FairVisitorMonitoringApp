@@ -53,9 +53,7 @@ namespace BITMVisitorMonitoringApp.DAL
             return rowEffect;
 
         }
-
-  
-
+        
         public List<Visitor> GetVisitorByZoneId(int zoneId)
         {
             SqlConnection aConnection = new SqlConnection(connectionString);

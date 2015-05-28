@@ -31,7 +31,7 @@ namespace VisitorMonitoringApp.UI
         private void CreateCheckBoxes()
         {
             
-            int intialTop = 240;
+            int intialTop = 300;
             foreach (Zone aZone in zoneList)
             {
                 CheckBox chk = new CheckBox();
@@ -44,6 +44,8 @@ namespace VisitorMonitoringApp.UI
                 this.Controls.Add(chk);
                 CheckBoxes.Add(chk);
                 intialTop += 20;
+                chk.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                
             
             }
         }
@@ -117,6 +119,8 @@ namespace VisitorMonitoringApp.UI
                 }
             }
         }
+
+
        
 
         
