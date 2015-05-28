@@ -95,5 +95,23 @@ namespace BITMVisitorMonitoringApp.DAL
             aConnection.Close();
             return count;
         }
+
+        public int GetTotalVisitor()
+        {
+            int count = 0;
+            SqlConnection aConnection = new SqlConnection(connectionString);
+            string query = "SELECT Name FROM VisitorTable";
+            SqlCommand aCommand = new SqlCommand(query, aConnection);
+            aConnection.Open();
+            SqlDataReader aReader = aCommand.ExecuteReader();
+            while (aReader.Read())
+            {
+                count++;
+            }
+
+            aReader.Close();
+            aConnection.Close();
+            return count;
+        }
     }
   }

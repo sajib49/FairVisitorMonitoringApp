@@ -42,5 +42,10 @@ namespace BITMVisitorMonitoringApp.BLL
         {
             return aVisitorGateWay.GetVisitorByZone(zoneId);
         }
+
+        public int GetTotalVisitor()
+        {
+            return aVisitorGateWay.GetTotalVisitor();
+        }
     }
 }

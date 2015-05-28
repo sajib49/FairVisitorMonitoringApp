@@ -39,16 +39,16 @@ namespace VisitorMonitoringApp.UI
 
             }
 
-            int countTotalVisitor = 0;
+            
             foreach (Zone aZone in finalZoneList)
             {
                 ListViewItem item = new ListViewItem(aZone.zoneName);
                 item.SubItems.Add(aZone.numberOfVisitor.ToString());
-                countTotalVisitor = countTotalVisitor + aZone.numberOfVisitor;
                 showAllVisitorNumberListBox.Items.Add(item);
 
             }
-            totalVisitorTextBox.Text = countTotalVisitor.ToString();
+            int totalVisitor = aVisitorManager.GetTotalVisitor();
+            totalVisitorTextBox.Text = totalVisitor.ToString();
 
         }
     }
